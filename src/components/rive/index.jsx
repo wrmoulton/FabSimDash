@@ -249,7 +249,7 @@ export default function DashboardRive() {
         ))}
       {activePanel && toolStats[activePanel.id] && (
         <PopupPanel
-          title={`Tool Info - ${activePanel.id}`}
+          title={`Tool Info`}
           toolData={toolStats[activePanel.id]}
           onClose={() => setActivePanel(null)}
           top={activePanel.top}

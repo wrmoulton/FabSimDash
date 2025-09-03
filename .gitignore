@@ -24,4 +24,3 @@ dist-ssr
 *.sw?
 # large assets
 *.mp4
-*.webm

@@ -155,6 +155,7 @@ const SERIES_SPEC = {
     sheet: "Capacity_Daily",
     valueCol: ["unstarted_lots"],
   },
+  
 };
 
 function initSeriesStore(len) {

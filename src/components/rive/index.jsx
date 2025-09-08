@@ -14,9 +14,11 @@ import toolStats from "../mock/mockToolData";
 import { startExcelStream, subscribe, stopStream, startRandomBindingsStream } from "../excelParse/csvDataService";
 //import { startMockStream, subscribe, stopMockStream } from "../mockDataService";
 
+
+
 export default function DashboardRive() {
   const { rive, RiveComponent } = useRive({
-    src: "/fabsim_prototype.riv",
+    src: "fabsim_prototype.riv",
     stateMachines: ["22.T-93_UI"],
     artboard: "UI_art 3",
     autoplay: true,
